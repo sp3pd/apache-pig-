@@ -1,0 +1,3 @@
+$ pig script2-hadoop.pig
+$ hadoop fs -ls script2-hadoop-results
+$hadoop fs -cat 'script2-hadoop-results/*' | less
